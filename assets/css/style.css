@@ -13,6 +13,12 @@ body {
   color: #444444;
 }
 
+#header .logoimg img {
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+}
+
 #head1 { background:#181015 url( ../images/bg_header.jpg) no-repeat; background-size: cover; min-height:1120px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
 
 
@@ -136,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
+
 
 @media (max-width: 992px) {
   #header {
@@ -497,6 +504,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   background: #428bca;
+}
+
+#hero .logofull img {
+  height: 350px;
+  width: 350px;
 }
 
 #hero .btn-get-started:hover {
