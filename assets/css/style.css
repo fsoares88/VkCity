@@ -35,6 +35,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -109,11 +111,6 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i:hover {
   background: #5697d0;
   color: #fff;
-}
-
-.btn-dis {
-  width: 15%;
-  text-align: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -580,7 +577,7 @@ section {
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 500;
-  color: #919191;
+  color: #ffffff;
 }
 
 @media (min-width: 1024px) {
@@ -818,6 +815,8 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 30px;
+  background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.8)), url("../img/707055.jpg") fixed center center;
+  background-size: cover;
 }
 
 .services .icon-box {
@@ -842,7 +841,7 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #ffffff;
   transition: 0.3s;
 }
 
