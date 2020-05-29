@@ -574,6 +574,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 350px;
 }
 
+@media (max-width: 480px){
+  #hero .logofull img{
+    width: 240px;
+    height: 240px;
+  }
+}
+
 #hero .btn-get-started:hover {
   background: #5697d0;
 }
@@ -638,7 +645,7 @@ section {
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
 }
 
 @media (min-width: 1024px) {
@@ -1461,6 +1468,20 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Planos
+--------------------------------------------------------------*/
+
+.container .div4 {
+  margin-left: 200px;
+}
+
+@media (max-width: 480px){
+  .container .div4{
+    margin-left: 0px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Regras
 --------------------------------------------------------------*/
 
@@ -1490,6 +1511,13 @@ section {
   color: white;
 }
 
+/*--------------------------------------------------------------
+# Contato
+--------------------------------------------------------------*/
+.btn-dis {
+  width: 150px;
+  height: 50px;
+}
 
 /*--------------------------------------------------------------
 # Footer
